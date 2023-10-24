@@ -1,0 +1,318 @@
+/* media query voor schermen groter dan 1024px */
+@media screen and (min-width: 1024px) {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgstart {
+    width: 100%;
+    height: 1000px;
+}
+
+.imgstartmobile {
+    display: none;
+}
+
+.h1_start {
+    text-align: center;
+    margin-top: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+}
+
+.headerbalk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: flex-end;
+}
+
+
+/* LearningOutcomes */
+.lo_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.lo-container { 
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.lo-container:hover {
+    color: #ee4943;
+    font-weight: bold;
+    transition: 0.5s;
+    font-size: 60px;
+}
+
+
+/* Footer */
+.pfooter {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+
+/* Aboutme */
+
+.h1_aboutme{
+    margin-top: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-left: 90px;
+}
+
+.aboutme_content {
+    display: flex;
+    margin-top: 10%;
+}
+
+.aboutme_info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.aboutme_info_container {
+    display: flex;
+    margin: 10%;
+}
+
+.aboutme_info_p {
+    color: #5B5B5B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.aboutme_g_row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 11%;
+    margin-bottom: 8%;
+}
+  
+.aboutme_g_row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.aboutme_gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+/* Navigation */
+header {
+    background-color: transparent;
+}
+  
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffffe0;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+  
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.3s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+  
+.overlay a:hover,
+.overlay a:focus {
+    color: #ee4943;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+  
+.burger {
+    font-size: 5em;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: white;
+}
+
+/* Pages */
+.p_info_top {
+    display: flex;
+    color: #5B5B5B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.p_info {
+    display: flex;
+    color: #5B5B5B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0px 200px 50px 160px;
+    flex-direction: column;
+}
+
+.h1_info {
+    text-align: center;
+    margin-top: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.h2_info {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 100px 200px 0px 160px;
+}
+
+.im_projects {
+    display: flex;
+}
+
+.DesignL {
+    display: flex;
+    margin-top: 350px;
+}
+
+.DesignR {
+    display: flex;
+    margin-top: 350px;
+    margin-left: 160px;
+}
+
+.h1_DesignL {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.h1_DesignR {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.p_DesignL {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.p_DesignR {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.imgDLposter {
+    display: flex;
+    width: 20%;
+    margin-left: 160px;
+    margin-right: 200px;
+    border: 1px solid #000000;
+}
+
+.imgBABdesign {
+    display: flex;
+    width: 100%;
+}
+
+.imgBABlp {
+    display: flex;
+    width: 60%;
+    margin-left: 160px;
+}
+
+
+/* Scroll-snap */
+.x.mandatory-scroll-snapping {
+    scroll-snap-type: x mandatory;
+}
+
+.container > div {
+    scroll-snap-align: center;
+    flex: none;
+    align-items: center;
+}
+
+.holster {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.container {
+    display: flex;
+    flex: none;
+    overflow: auto;
+}
+
+.container.x {
+    width: 70%;
+    flex-flow: row nowrap;
+    overflow-y: hidden;
+}
+
+.x.container > div {
+    line-height: 128px;
+    width: 100%;
+}
+
+} 
