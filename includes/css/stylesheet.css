@@ -205,11 +205,39 @@ header {
 }
 
 .h1_info {
-    text-align: center;
-    margin-top: 80px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --bg-size: 400%;
+    --color-one: #ee4943;
+    --color-two: #ff6c67;
+    --color-three: #ffc7c5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
     margin-bottom: 50px;
+    text-align: center;
+    margin-top: 80px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background: linear-gradient(
+        90deg,
+        var(--color-one),
+        var(--color-two),
+        var(--color-three),
+        var(--color-two),
+        var(--color-one)
+      )
+      0 0 / var(--bg-size) 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .h1_info {
+      animation: move-bg 7s linear infinite;
+    }
+    @keyframes move-bg {
+      to {
+        background-position: var(--bg-size) 0;
+      }
+    }
 }
 
 .h2_info {
