@@ -7,7 +7,7 @@
 
 .imgstart {
     width: 100%;
-    height: 1000px;
+    height: 61rem;
 }
 
 .imgstartmobile {
@@ -16,7 +16,7 @@
 
 .h1_start {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 70px;
 }
@@ -38,14 +38,14 @@
 .lo_content {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 1rem;
     width: 50%;
 }
 
 .lo-container { 
     text-align: left;
-    margin-top: 80px;
-    margin-left: 60px;
+    margin-top: 5rem;
+    margin-left: 5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     color: #000000;
@@ -66,8 +66,7 @@
 /* Footer */
 .pfooter {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 6rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-top: 10%;
@@ -76,10 +75,10 @@
 
 /* Aboutme */
 .h1_aboutme{
-    margin-top: 80px;
+    margin-top: 6rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
-    margin-left: 90px;
+    margin-left: 5.3rem;
 }
 
 .aboutme_content {
@@ -147,7 +146,7 @@ header {
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1rem;
 }
   
 .overlay a {
@@ -159,7 +158,7 @@ header {
     transition: 0.3s;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    padding-bottom: 80px;
+    padding-bottom: 6rem;
 }
   
 .overlay a:hover,
@@ -175,11 +174,10 @@ header {
 }
   
 .burger {
-    font-size: 5em;
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 45px;
+    right: 3rem;
     font-size: 60px;
     color: white;
 }
@@ -200,7 +198,7 @@ header {
     color: #5B5B5B;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    margin: 0px 200px 50px 160px;
+    margin: 0rem 10rem 4rem 10rem;
     flex-direction: column;
 }
 
@@ -210,10 +208,10 @@ header {
     --color-two: #ff6c67;
     --color-three: #ffc7c5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 70px;
-    margin-bottom: 50px;
+    font-size: 90px;
+    margin-bottom: 3rem;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     background: linear-gradient(
@@ -243,7 +241,7 @@ header {
 .h2_info {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    margin: 100px 200px 0px 160px;
+    margin: 6rem 0rem 0rem 10rem;
 }
 
 .im_projects {
@@ -252,13 +250,13 @@ header {
 
 .DesignL {
     display: flex;
-    margin-top: 350px;
+    margin-top: 22rem;
 }
 
 .DesignR {
     display: flex;
-    margin-top: 350px;
-    margin-left: 160px;
+    margin-top: 22rem;
+    margin-left: 10rem;
 }
 
 .h1_DesignL {
@@ -266,7 +264,7 @@ header {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .h1_DesignR {
@@ -274,14 +272,14 @@ header {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .p_DesignL {
     display: flex;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    margin-right: 160px;
+    margin-right: 11rem;
 }
 
 .p_DesignR {
@@ -295,8 +293,8 @@ header {
 .imgDLposter {
     display: flex;
     width: 20%;
-    margin-left: 160px;
-    margin-right: 200px;
+    margin-left: 11rem;
+    margin-right: 12.5rem;
     border: 1px solid #000000;
 }
 
@@ -308,33 +306,33 @@ header {
 .imgBABlp {
     display: flex;
     width: 60%;
-    margin-left: 160px;
+    margin-left: 11rem;
 }
 
 
 /* Research Page */
 .imgBABresearch {
     display: flex;
-    width: 800px;
-    height: 120px;
-    margin-left: 160px;
-    margin-right: 100px;
+    width: 50rem;
+    height: 7.5rem;
+    margin-left: 11rem;
+    margin-right: 6.25rem;
 }
 
 .imgUXresearch {
     display: flex;
     width: 45%;
-    margin-left: 160px;
-    margin-right: 150px;
+    margin-left: 11rem;
+    margin-right: 9.5rem;
 }
 
 
-/* Communcation page */
+/* Communication page */
 .imgBABCommunication {
     display: flex;
     width: 30%;
-    margin-left: 160px;
-    margin-right: 100px;
+    margin-left: 11rem;
+    margin-right: 7.5rem;
 }
 
 
@@ -368,18 +366,18 @@ header {
 }
 
 .x.container > div {
-    line-height: 128px;
+    line-height: 8rem;
     width: 100%;
 }
 
 
-/* Animation */
+/* Animation Luffy */
 .svganimation {
     position: fixed;
     top: 50%;
     left: 5%;
-    margin-top: -50px;
-    margin-left: -50px;
+    margin-top: -3.125rem;
+    margin-left: -3.125rem;
   
     animation: rotate 1s linear infinite;
     animation-play-state: paused;
@@ -408,8 +406,8 @@ header {
     display: block;
     width: 1.5vw;
     height: 1.5vw;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
+    border-bottom: 0.313rem solid white;
+    border-right: 0.313rem solid white;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -426,14 +424,14 @@ header {
 @keyframes animate {
     0% {
         opacity: 0;
-        transform: rotate(45deg) translate(-20px, -20px);
+        transform: rotate(45deg) translate(-1.25rem, -1.25rem);
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: rotate(45deg) translate(20px, 20px);
+        transform: rotate(45deg) translate(1.25rem, 1.25rem);
     }
 }
 
@@ -444,15 +442,17 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     transform: rotate(270deg);
-    margin-top: 10px;
+    position: absolute;
+    margin-left: 46rem;
+    margin-top: 96rem;
 }
 
 .arrowR .spanR {
     display: block;
     width: 1.5vw;
     height: 1.5vw;
-    border-bottom: 5px solid rgb(0, 0, 0);
-    border-right: 5px solid rgb(0, 0, 0);
+    border-bottom: 0.313rem solid rgb(0, 0, 0);
+    border-right: 0.313rem solid rgb(0, 0, 0);
     transform: rotate(270deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -469,14 +469,14 @@ header {
 @keyframes animate {
     0% {
         opacity: 0;
-        transform: rotate(45deg) translate(-20px, -20px);
+        transform: rotate(45deg) translate(-1.25rem, -1.25rem);
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: rotate(45deg) translate(20px, 20px);
+        transform: rotate(45deg) translate(1.25rem, 1.25rem);
     }
 }
 
