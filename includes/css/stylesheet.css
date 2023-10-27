@@ -212,8 +212,6 @@ header {
     margin-bottom: 3rem;
     text-align: center;
     margin-top: 5rem;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     background: linear-gradient(
         90deg,
         var(--color-one),
