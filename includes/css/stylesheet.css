@@ -33,6 +33,11 @@
     align-items: flex-end;
 }
 
+.backbutton {
+    margin-top: 15px; 
+    cursor: pointer;
+}
+
 
 /* LearningOutcomes */
 .lo_content {
@@ -263,6 +268,10 @@ header {
     font-size: 30px;
     flex-direction: column;
     margin-bottom: 2.5rem;
+}
+
+.h1_phone_DesignL {
+    display: none;
 }
 
 .h1_DesignR {
