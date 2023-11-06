@@ -1,3 +1,4 @@
+/* Nacbar */
 function openNav() {
     document.getElementById("main-nav").style.height = "100%";
     document.getElementById("burger").style.display = "none";
@@ -19,6 +20,7 @@ window.addEventListener(
     false
   );
 
+/* Timeline */
   (function ($) {
     $(function () {
 
