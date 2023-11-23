@@ -31,6 +31,7 @@
     top: 0;
     background-color: white;
     align-items: flex-end;
+    z-index: 1;
 }
 
 .backbutton {
@@ -308,6 +309,10 @@ header {
     margin-bottom: 2.5rem;
 }
 
+.h1_phone_DesignR {
+  display: none;
+}
+
 .p_DesignL {
     display: flex;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Bold', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -368,6 +373,30 @@ header {
     border: 1px solid #000000;
 }
 
+.imgdesignportfolio {
+    display: flex;
+    width: 40%;
+    height: 20rem;
+    margin-right: 6rem;
+    margin-left: 11rem;
+}
+
+.imgportfoliowebsite {
+    display: flex;
+    height: 25rem;
+    margin-right: 11rem;
+    width: 105rem;
+    margin-top: 5rem;
+}
+
+.imgportfoliomobiel {
+    display: flex;
+    height: 35rem;
+    margin-right: 11rem;
+    margin-left: 10rem;
+    width: 20rem;
+}
+
 
 /* Research Page */
 .imgBABresearch {
@@ -377,6 +406,7 @@ header {
     margin-left: 11rem;
     margin-right: 6.25rem;
     margin-bottom: 10rem;
+    margin-top: 5rem;
 }
 
 .imgUXresearchCTA {
@@ -412,7 +442,7 @@ header {
 /* Communication page */
 .imgBABCommunication {
     display: flex;
-    width: 30%;
+    width: 35%;
     margin-left: 11rem;
     margin-right: 7.5rem;
     margin-bottom: 5rem;
@@ -420,7 +450,7 @@ header {
 
 .imgUXtrello {
     display: flex;
-    width: 40%;
+    width: 45%;
     margin-left: 11rem;
     margin-right: 11rem;
     margin-bottom: 5rem;
@@ -430,6 +460,14 @@ header {
     display: flex;
     width: 35%;
     margin-left: 11rem;
+    margin-right: 11rem;
+    margin-bottom: 5rem;
+}
+
+.imgcommunicationdev {
+    display: flex;
+    width: 35%;
+    margin-left: 15rem;
     margin-right: 11rem;
     margin-bottom: 5rem;
 }
@@ -446,13 +484,13 @@ header {
 .imgUXimdesign1 {
     display: flex;
     width: 300%;
-    margin-right: 30rem;
+    margin-right: 40rem;
 }
 
 .imgUXimdesign2 {
     display: flex;
     width: 300%;
-    margin-right: 15rem;
+    margin-right: 20rem;
 }
 
 
@@ -463,6 +501,14 @@ header {
     margin-left: 11rem;
     margin-right: 9.5rem;
     border: 1px solid #000000;
+}
+
+.imgDEVgitlab {
+    display: flex;
+    width: 100%;
+    margin-right: 11rem;
+    margin-left: 8rem;
+    height: 23rem;
 }
 
 
@@ -680,6 +726,49 @@ header {
     }
 }
 
+.arrowRdesign {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  position: absolute;
+  margin-left: 46rem;
+  margin-top: 195rem;
+}
+
+.arrowRdesign .spanRdesign {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-bottom: 0.313rem solid rgb(0, 0, 0);
+  border-right: 0.313rem solid rgb(0, 0, 0);
+  transform: rotate(270deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrowRdesign .spanRdesign:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrowRdesign .spanRdesign:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-1.25rem, -1.25rem);
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(1.25rem, 1.25rem);
+  }
+}
+
 .arrowRim {
   top: 50%;
   left: 50%;
@@ -687,7 +776,7 @@ header {
   transform: rotate(270deg);
   position: absolute;
   margin-left: 46rem;
-  margin-top: 103rem;
+  margin-top: 107rem;
 }
 
 .arrowRim .spanRim {
