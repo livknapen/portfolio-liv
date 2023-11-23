@@ -419,7 +419,7 @@ header {
 .imgUXresearchCMD {
     display: flex;
     width: 40%;
-    margin-left: 11rem;
+    margin-left: 16rem;
     margin-right: 18rem;
 }
 
@@ -508,6 +508,14 @@ header {
     width: 100%;
     margin-right: 11rem;
     margin-left: 8rem;
+    height: 23rem;
+}
+
+.imgportfoliodev {
+    display: flex;
+    width: 100%;
+    margin-right: 11rem;
+    margin-left: 10.5rem;
     height: 23rem;
 }
 
