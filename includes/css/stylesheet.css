@@ -357,6 +357,7 @@ header {
 .imgBABdesign {
     display: flex;
     width: 100%;
+    margin-right: 20rem;
 }
 
 .imgBABlp {
