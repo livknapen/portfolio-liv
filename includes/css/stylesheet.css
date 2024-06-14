@@ -545,6 +545,20 @@ header {
     border: 1px solid #000000;
 }
 
+.vidtrailer {
+    display: flex;
+    width: 20%;
+    margin-left: 11rem;
+    margin-right: 9.5rem;
+}
+
+.vidryu {
+  display: flex;
+  width: 40%;
+  margin-left: 11rem;
+  margin-right: 9.5rem;
+}
+
 .imgDEVgitlab {
     display: flex;
     width: 100%;
