@@ -3,7 +3,7 @@
 This is a flat and responsive website designed and coded by Liv Knapen. The first page you can see, after scrolling down, my newest project that I made. At the right top you can see a hamburger menu where you can go to my learning outcomes. On this page you can walk through all my projects in the learning outcomes. You can also see an 'About me' where I tell a little about myself (obviously). There is also a pdf linked on every page where you can view my document. In this file I have some more documentation about my projects.
  
 
-![Demo Image](https://git.fhict.nl/I505851/porftolioliv/-/raw/main/media/imgportfolio.png)
+![Demo Image]([https://git.fhict.nl/I505851/porftolioliv/-/raw/main/media/imgportfolio.png](https://github.com/livknapen/portfolio-liv/blob/main/media/imgportfolio.png))
 
 
 ## Contents
